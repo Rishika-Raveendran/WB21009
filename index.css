@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.body {
+  margin: 0;
+  padding: 0;
+}
+
+.welcome {
+  margin-left: -1vw;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(1, 34, 1);
+  overflow-y: hidden;
+}
+
+.welcome_video {
+  width: 100vw;
+}
+
+.welcome_text {
+  display: flex;
+  font-family: "Montserrat";
+  height: 100vh;
+  width: 100vw;
+  text-align: left;
+  color: white;
+  position: fixed;
+  top: 0vh;
+  left: 0vw;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #111;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+}
+
+.welcome_text h1 {
+  background-image: url(https://media.giphy.com/media/xTiTniuHdUjpOlNo1q/giphy.gif);
+  background-clip: text;
+  background-size: cover;
+  background-position-y: bottom;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.explore {
+  font-family: "Montserrat";
+  height: 50px;
+  width: 150px;
+  background: transparent;
+  border: 1px solid rgb(184, 235, 126);
+  color: rgb(184, 235, 126);
+  font-size: medium;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 0;
+  cursor: pointer;
+}
+
+explore:focus {
+  background: transparent;
+  border: none;
+  color: rgb(112, 230, 230);
+}
